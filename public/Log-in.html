@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Link Boostrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="Log-in.css">
+    <title>Log-in</title>
+</head>
+<body>
+    <div class="imagen">
+        <div class="texto-imagen">
+            <h1>Welcome to El-Shoes</h1>
+            <p>For better experience with your shoes!</p>
+        </div>
+        <img src="Imagenes/Piernas.jpg" alt="">
+    </div>
+    <div class="sign-in">
+        <h1>Sign In</h1>
+        <form action="/login" method="post">
+            <input type="text" name="email" id="" placeholder="Username / Email">
+            <span class="user"><i class="bi bi-person"></i></span>
+            <input type="password" name="password" placeholder="Password">
+            <span class="password"><i class="bi bi-lock"></i></span>
+            <button class="btn-sign-up">Sign In</button>
+        </form>
+        <div class="no-tenes-cuenta">
+            <p>Don't have an account?</p>
+            <a href="/signup">Sign Up</a>
+        </div>
+    </div>
+</body>
+</html>
