@@ -196,9 +196,17 @@ input::placeholder{
 }
 @media (max-width:1600px) {
     img{
-        width: 20rem;
+        width: 40rem;
     }
     .sign-in{
-        padding-left: 10rem;
+        padding-left: 20rem;
+    }
+}
+@media (max-width:1500px) {
+    img{
+        width: 35rem;
+    }
+    .sign-in{
+        padding-left: 15rem;
     }
 }
